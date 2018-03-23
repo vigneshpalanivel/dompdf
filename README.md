@@ -129,3 +129,5 @@ Limitations (Known Issues)
 
 (Any funds donated will be used to help further development on this project.)	
 [![Donate button](https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif)](http://goo.gl/DSvWf)
+
+Trioangle Technologies Pvt. Ltd.,
