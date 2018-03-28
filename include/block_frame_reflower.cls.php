@@ -698,7 +698,13 @@ class Block_Frame_Reflower extends Frame_Reflower {
     // Determine the constraints imposed by this frame: calculate the width
     // of the content area:
     list($w, $left_margin, $right_margin, $left, $right) = $this->_calculate_restricted_width();
-
+    
+    $w = (Int)$w;
+    $left_margin = (Int)$left_margin;
+    $right_margin = (Int)$right_margin;
+    $left = (Int)$left;
+    $right = (Int)$right;
+    
     // Store the calculated properties
     $style->width = $w . "pt";
     $style->margin_left = $left_margin."pt";
