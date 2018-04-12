@@ -205,3 +205,5 @@ See [Dompdf\Options](src/Options.php) for a list of available options.
 [![Donate button](https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif)](http://goo.gl/DSvWf)
 
 *If you find this project useful, please consider making a donation. Any funds donated will be used to help further development on this project.)*
+
+trioangle gofer
