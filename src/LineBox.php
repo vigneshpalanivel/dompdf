@@ -185,7 +185,7 @@ class LineBox
 
             // If the child is still shifted by the floating element
             if ($anti_infinite_loop-- > 0 &&
-                $floating_frame->get_position("y") + $floating_frame->get_margin_height() > $this->y &&
+                $floating_frame->get_position("y") + (int)$floating_frame->get_margin_height() > $this->y &&
                 $block->get_position("x") + $block->get_margin_width() > $floating_frame->get_position("x")
             ) {
                 if ($float === "left") {

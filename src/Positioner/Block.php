@@ -55,7 +55,7 @@ class Block extends AbstractPositioner {
             $left = $style->length_in_pt($style->left, $cb["w"]);
 
             $x += $left;
-            $y += $top;
+            $y += (int)$top;
         }
 
         $frame->set_position($x, $y);

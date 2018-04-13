@@ -1318,10 +1318,10 @@ class Style
             return $this->_computed_border_radius;
         }
 
-        $rTL = $this->__get("border_top_left_radius");
-        $rTR = $this->__get("border_top_right_radius");
-        $rBL = $this->__get("border_bottom_left_radius");
-        $rBR = $this->__get("border_bottom_right_radius");
+        $rTL = (int)$this->__get("border_top_left_radius");
+        $rTR = (int)$this->__get("border_top_right_radius");
+        $rBL = (int)$this->__get("border_bottom_left_radius");
+        $rBR = (int)$this->__get("border_bottom_right_radius");
 
         if ($rTL + $rTR + $rBL + $rBR == 0) {
             return $this->_computed_border_radius = array(
